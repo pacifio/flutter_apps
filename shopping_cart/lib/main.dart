@@ -7,7 +7,7 @@ const linearColor = LinearGradient(
 
 const protectionMsgs = [
   "3 year protection plan for custom PC Build with super fast services",
-  "2 year protection plan for Alienware Monitors with super fast services"
+  "2 year protection plan for Alienware Monitors with cheap fixings"
 ];
 
 void main() => runApp(MainApp());
@@ -47,7 +47,7 @@ class _HomeScreenState extends State<HomeScreen> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
               WhiteText(
-                text: "Shopping Cartx",
+                text: "Shopping Cart",
                 size: 24.0,
               ),
               SizedBox(
@@ -110,9 +110,15 @@ class CartItems extends StatelessWidget {
         Container(
           width: 100.0,
           height: 80.0,
+          padding: EdgeInsets.all(10.0),
           decoration: BoxDecoration(
               color: Color(0xFF1E1D1E),
               borderRadius: BorderRadius.circular(10.0)),
+          child: Center(
+            child: Image(
+              image: AssetImage("assets/customPC.png"),
+            ),
+          ),
         ),
         Spacer(),
         Column(
@@ -189,11 +195,14 @@ class PlanCard extends StatelessWidget {
           Spacer(),
           Align(
               alignment: Alignment.bottomRight,
-              child: Text("\$99.99",
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontWeight: FontWeight.w200,
-                      fontSize: 16.0))),
+              child: Text(
+                "\$99.99",
+                style: TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w200,
+                    fontSize: 16.0),
+                textAlign: TextAlign.left,
+              )),
         ],
       ),
     );
@@ -216,7 +225,7 @@ class PlanCardGrey extends StatelessWidget {
           Align(
             alignment: Alignment.topLeft,
             child: Text(
-              protectionMsgs[0],
+              protectionMsgs[1],
               style:
                   TextStyle(color: Colors.white, fontWeight: FontWeight.w200),
             ),
@@ -224,7 +233,7 @@ class PlanCardGrey extends StatelessWidget {
           Spacer(),
           Align(
               alignment: Alignment.bottomRight,
-              child: Text("\$99.99",
+              child: Text("Add".toUpperCase(),
                   style: TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.w200,

@@ -21,3 +21,9 @@ doc/api/
 *.js.map
 .vscode
 .idea
+
+# Android and Xcode files
+*/.idea
+*/android/
+*/ios/
+*/build/
