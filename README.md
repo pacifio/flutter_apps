@@ -5,10 +5,10 @@ A collection of beautiful apps created using flutter , inpired by dribble or you
 
 All of the apps are listed as below
 
-| Name             |                               Link                               |                   Dribble / Youtube                    |                       Preview                        |
-| ---------------- | :--------------------------------------------------------------: | :----------------------------------------------------: | :--------------------------------------------------: |
-| Shopping cart UI | [git](https://www.github.com/pacifio/flutter_apps/shopping_cart) | [youtube](https://www.youtube.com/watch?v=hqFb7pvYWiQ) | <img src="./media/shopping_cart.gif" height="200" /> |
-| Flightapp UI     |   [git](https://www.github.com/pacifio/flutter_apps/flightapp)   |           [dribble](https://bit.ly/30v9YgG)            |   <img src="./media/flightapp.gif" height="200" />   |
+| Name             |             Link              |         Dribble / Youtube         |                       Preview                        |
+| ---------------- | :---------------------------: | :-------------------------------: | :--------------------------------------------------: |
+| Shopping cart UI | [git](https://bit.ly/2XFb1Zs) | [youtube](https://bit.ly/2NJpJyX) | <img src="./media/shopping_cart.gif" height="200" /> |
+| Flightapp UI     | [git](https://bit.ly/2XGTsbk) | [dribble](https://bit.ly/30v9YgG) |   <img src="./media/flightapp.gif" height="200" />   |
 
 You can however download and use this projects . But in order to show support please star this project
 
