@@ -1,7 +1,6 @@
 import 'package:flightapp/custom_shape_clipper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import './custom_appbar.dart';
 
 Color firstColor = Color(0xFFFF6900); // #FF6900
 Color secondColor = Color(0xFFFF6500); // #FF6500
