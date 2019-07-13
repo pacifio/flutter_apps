@@ -101,7 +101,7 @@ class _HomePageState extends State<HomePage>
                 onPressed: () {},
               ),
               IconButton(
-                icon: Icon(Icons.notifications_none),
+                icon: Icon(Icons.notifications),
                 onPressed: () {},
               )
             ],
@@ -215,11 +215,17 @@ class MainPage extends StatelessWidget {
                             ],
                           ),
                         ),
-                        Icon(
-                          Icons.bookmark,
-                          size: 32.0,
-                          color: Colors.blue,
-                        )
+                        posts[index]['bookmarked']
+                            ? Icon(
+                                Icons.bookmark,
+                                size: 32.0,
+                                color: Colors.blue,
+                              )
+                            : Icon(
+                                Icons.bookmark_border,
+                                size: 32.0,
+                                color: Colors.black54,
+                              )
                       ],
                     ),
                     SizedBox(
