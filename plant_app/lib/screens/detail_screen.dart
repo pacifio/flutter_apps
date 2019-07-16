@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './explore_screen.dart';
 
 class DetailScreen extends StatefulWidget {
   DetailScreen({Key key}) : super(key: key);
@@ -33,7 +34,7 @@ class _DetailScreenState extends State<DetailScreen> {
                 height: 25.0,
               ),
               Container(
-                margin: EdgeInsets.symmetric(horizontal: 20.0),
+                margin: EdgeInsets.only(left: 20.0, right: 20.0, bottom: 40.0),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
@@ -48,7 +49,7 @@ class _DetailScreenState extends State<DetailScreen> {
                       ),
                     ),
                     SizedBox(
-                      height: 20.0,
+                      height: 10.0,
                     ),
                     Row(
                       children: <Widget>[
@@ -157,17 +158,25 @@ class _DetailScreenState extends State<DetailScreen> {
                             borderRadius: BorderRadius.circular(4.0),
                           ),
                         ),
-                        Container(
-                          width: 55,
-                          height: 55,
-                          child: Center(
-                              child: Text(
-                            "+13",
-                            style: TextStyle(color: Color(0xFF9DA3B4)),
-                          )),
-                          decoration: BoxDecoration(
-                              color: Color(0xFFC5CCD6),
-                              borderRadius: BorderRadius.circular(4)),
+                        GestureDetector(
+                          onTap: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => ExploreScreen()));
+                          },
+                          child: Container(
+                            width: 55,
+                            height: 55,
+                            child: Center(
+                                child: Text(
+                              "+13",
+                              style: TextStyle(color: Color(0xFF9DA3B4)),
+                            )),
+                            decoration: BoxDecoration(
+                                color: Color(0xFFC5CCD6),
+                                borderRadius: BorderRadius.circular(4)),
+                          ),
                         )
                       ],
                     )

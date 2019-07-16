@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import './colors.dart';
 import './detail_screen.dart';
+import './settings_screen.dart';
 
 const producsts = [
   {'image': 'assets/plants.jpg', 'count': '147', 'name': 'Plants'},
@@ -66,9 +67,17 @@ class _BrowseScreenState extends State<BrowseScreen>
                           fontSize: 26.0,
                           fontWeight: FontWeight.w700),
                     ),
-                    CircleAvatar(
-                      backgroundColor: Colors.black,
-                      backgroundImage: AssetImage("assets/user.jpg"),
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => SettingsScreen()));
+                      },
+                      child: CircleAvatar(
+                        backgroundColor: Colors.black,
+                        backgroundImage: AssetImage("assets/user.jpg"),
+                      ),
                     )
                   ],
                 )),
