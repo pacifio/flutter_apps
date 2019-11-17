@@ -12,8 +12,9 @@ All of the apps are listed as below
 | Shopping cart UI | [git](https://bit.ly/32q3XmU) | [dribble](https://bit.ly/2Jvys3C) | <img src="./media/shopping_cart2.gif" height="200" /> |
 | News app UI      | [git](https://bit.ly/32seFcA) | [ui8](https://bit.ly/2JTdQRZ)     | <img src="./media/news_app.gif" height="200" />      |
 | Plant app UI      | [git](https://bit.ly/2LQ4JUC) | [dribble](https://bit.ly/2XMTymH)     | <img src="./media/plant_app.gif" height="200" />      |
+| Wallpaper app UI      | [git](https://bit.ly/2qW2bvR) | Custom     | <img src="./media/wallart.gif" height="200" />      |
 
-You can however download and use this projects . But in order to show support please star this project
+You can however download and use this projects . But in order to show support please consider <bold>starring</bold> this project .
 
 # License
 ```
