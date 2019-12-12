@@ -15,14 +15,17 @@ class _ListArticlesState extends State<ListArticles> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
+        brightness: Brightness.dark,
         elevation: 0.0,
         backgroundColor: Colors.white,
         leading: IconButton(
           icon: Icon(
-            FeatherIcons.menu,
+            FeatherIcons.chevronLeft,
             color: Colors.black,
           ),
-          onPressed: () {},
+          onPressed: () {
+            Navigator.of(context).pop();
+          },
         ),
         actions: <Widget>[
           IconButton(

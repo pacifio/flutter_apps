@@ -175,7 +175,9 @@ class _SingleArticleState extends State<SingleArticle>
               ),
             ),
           ),
-          CustomAppBar()
+          CustomAppBar(
+            popBack: true,
+          )
         ],
       ),
     );

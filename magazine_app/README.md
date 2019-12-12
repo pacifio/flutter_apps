@@ -1,5 +1,7 @@
 A beautiful magazine app
 
+<img src="../media/magazine.gif" height="300"/>
+
 Design : [dribbble](https://dribbble.com/shots/6220712-Mood-Mobile)
 
 Features ....

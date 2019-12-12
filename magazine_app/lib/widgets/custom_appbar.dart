@@ -6,7 +6,9 @@ import 'package:rect_getter/rect_getter.dart';
 
 class CustomAppBar extends StatefulWidget {
   final bool inverted;
-  const CustomAppBar({Key key, this.inverted = false}) : super(key: key);
+  final bool popBack;
+  const CustomAppBar({Key key, this.inverted = false, this.popBack = false})
+      : super(key: key);
 
   @override
   _CustomAppBarState createState() => _CustomAppBarState();
@@ -23,8 +25,7 @@ class _CustomAppBarState extends State<CustomAppBar> {
       return Container();
     }
     return AnimatedPositioned(
-      //<--replace Positioned with AnimatedPositioned
-      duration: animationDuration, //<--specify the animation duration
+      duration: animationDuration,
       left: rect.left,
       right: MediaQuery.of(context).size.width - rect.right,
       top: rect.top,
@@ -67,14 +68,25 @@ class _CustomAppBarState extends State<CustomAppBar> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
-                GestureDetector(
-                  child: Icon(
-                    FeatherIcons.menu,
-                    color: widget.inverted ? Colors.black : Colors.white,
-                    size: 26,
-                  ),
-                  onTap: () {},
-                ),
+                widget.popBack
+                    ? GestureDetector(
+                        child: Icon(
+                          FeatherIcons.chevronLeft,
+                          color: widget.inverted ? Colors.black : Colors.white,
+                          size: 26,
+                        ),
+                        onTap: () {
+                          Navigator.of(context).pop();
+                        },
+                      )
+                    : GestureDetector(
+                        child: Icon(
+                          FeatherIcons.menu,
+                          color: widget.inverted ? Colors.black : Colors.white,
+                          size: 26,
+                        ),
+                        onTap: () {},
+                      ),
                 GestureDetector(
                   key: rectGetterKey,
                   child: Icon(
