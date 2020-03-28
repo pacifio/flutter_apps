@@ -15,7 +15,7 @@ All of the apps are listed as below
 | Wallpaper app UI      | [git](https://bit.ly/2qW2bvR) | Custom     | <img src="./media/wallart.gif" height="200" />      |
 | Dribble UI | [git](https://bit.ly/2P2eFeF) | [dribble](https://bit.ly/2Lwnuvl) | <img src="./media/dribbble.gif" height="200" /> |
 | Magazine UI | [git](https://bit.ly/35eDutB) | [dribble](https://bit.ly/35eabaH) | <img src="./media/magazine.gif" height="200" /> |
-| Magazine UI | [git](https://bit.ly/39rPQQt) | Custom | <img src="./media/ios_unlock.gif" height="200" /> |
+| IOS Unlock | [git](https://bit.ly/39rPQQt) | Custom | <img src="./media/ios_unlock.gif" height="200" /> |
 
 You can however download and use this projects . But in order to show support please consider <bold>starring</bold> this project .
 
