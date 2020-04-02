@@ -21,6 +21,8 @@ All of the apps are listed as below
 
 You can however download and use this projects . But in order to show support please consider <bold>starring</bold> this project .
 
+Also check out Sani's profile on [github](https://github.com/imSanjaySoni)
+
 # License
 ```
 MIT License
