@@ -1,5 +1,5 @@
 # Flutter UI apps
-A collection of beautiful apps created using flutter , inpired by dribble or youtube UI projects . I will update this repository every single day / every 2 days , so star this repo in order to get updates !
+A collection of beautiful apps created using flutter , inpired by dribble or youtube UI projects .
 
 > Please note that I am not commiting android and xcode builds . I have made no changes in those folders
 
@@ -16,8 +16,10 @@ All of the apps are listed as below
 | Dribble UI | [git](https://bit.ly/2P2eFeF) | [dribble](https://bit.ly/2Lwnuvl) | <img src="./media/dribbble.gif" height="200" /> |
 | Magazine UI | [git](https://bit.ly/35eDutB) | [dribble](https://bit.ly/35eabaH) | <img src="./media/magazine.gif" height="200" /> |
 | IOS Unlock | [git](https://bit.ly/39rPQQt) | Custom | <img src="./media/ios_unlock.gif" height="200" /> |
+| Bloom app | [git](https://bit.ly/2UVtnqQ) | [Youtube](https://bit.ly/2y01V2i) | <img src="./media/bloom.gif" height="200" /> |
 | Movie Rating App | [git](https://github.com/imSanjaySoni/Movie-Rating-app-with-flutter-Bloc-patten) | Custom | <img src="https://raw.githubusercontent.com/imSanjaySoni/Movie-Rating-app-with-flutter-Bloc-patten/master/screenshots/1.png" height="200" /> |
 | BMI Calculator App| [git](https://github.com/imSanjaySoni/BMI-Calculator-with-flutter) | Custom | <img src="https://raw.githubusercontent.com/imSanjaySoni/BMI-Calculator-with-flutter/master/one.png" height="200" /> |
+
 
 You can however download and use this projects . But in order to show support please consider <bold>starring</bold> this project .
 
