@@ -69,6 +69,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 TextField(
                   cursorColor: Color(0xFF979797),
                   decoration: InputDecoration(
+                      obscureText: true,
                       labelText: "Password",
                       labelStyle: TextStyle(color: lightGrey),
                       focusColor: Colors.black,
