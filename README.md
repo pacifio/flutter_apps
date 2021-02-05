@@ -19,6 +19,10 @@ All of the apps are listed as below
 | Bloom app | [git](https://bit.ly/2UVtnqQ) | [Youtube](https://bit.ly/2y01V2i) | <img src="./media/bloom.gif" height="200" /> |
 | Movie Rating App | [git](https://github.com/imSanjaySoni/Movie-Rating-app-with-flutter-Bloc-patten) | Custom | <img src="https://raw.githubusercontent.com/imSanjaySoni/Movie-Rating-app-with-flutter-Bloc-patten/master/screenshots/1.png" height="200" /> |
 | BMI Calculator App| [git](https://github.com/imSanjaySoni/BMI-Calculator-with-flutter) | Custom | <img src="https://raw.githubusercontent.com/imSanjaySoni/BMI-Calculator-with-flutter/master/one.png" height="200" /> |
+| Video Background| [git](https://github.com/imSanjaySoni/Intro-Screen-with-Video-Background) | Custom | <img src="https://github.com/imSanjaySoni/Intro-Screen-with-Video-Background/blob/master/screenshots/github_com-video.gif" height="200" /> |
+| Music UI Flutter Web| [git](https://github.com/imSanjaySoni/Flutter-web-Music-UI) | Custom | <img src="https://raw.githubusercontent.com/imSanjaySoni/Flutter-web-Music-UI/master/assets/images/Screenshot.png" height="200" /> |
+| Inshorts Clone (News App)| [git](https://github.com/imSanjaySoni/Inshorts-Clone-The-News-App) | Custom | <img src="https://github.com/imSanjaySoni/Inshorts-Clone-The-News-App/blob/master/banner.png?raw=true" height="200" /> |
+
 
 
 You can however download and use this projects . But in order to show support please consider <bold>starring</bold> this project .
